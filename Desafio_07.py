@@ -1,0 +1,5 @@
+a = input ("Nome do aluno:")
+print ('As respectivas notas no aluno {} foram:'.format (a))
+n1 = float (input('A nota 1:'))
+n2 = float (input('a nota 2:'))
+print (f'A média aritmética do aluno foi {(n1+n2)/2:.1f}')
